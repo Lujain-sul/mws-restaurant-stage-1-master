@@ -151,6 +151,8 @@ createReviewHTML = (review) => {
 */
 fillBreadcrumb = (restaurant=self.restaurant) => {
   const breadcrumb = document.getElementById('breadcrumb');
+  // Add Aria label
+  breadcrumb.setAttribute('aria-label',`${restaurant.name}`);
   const li = document.createElement('li');
   li.innerHTML = restaurant.name;
   breadcrumb.appendChild(li);

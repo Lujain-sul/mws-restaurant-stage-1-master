@@ -27,7 +27,17 @@ self.addEventListener('install', e => {
         `/css/styles.css?timestamp=${timeStamp}`,
         `/js/main.js?timestamp=${timeStamp}`,
         `/js/dbhelper.js?timestamp=${timeStamp}`,
-        `/js/restaurant_info.js?timestamp=${timeStamp}`
+        `/js/restaurant_info.js?timestamp=${timeStamp}`,
+        `/img/1.jpg?timestamp=${timeStamp}`,
+        `/img/2.jpg?timestamp=${timeStamp}`,
+        `/img/3.jpg?timestamp=${timeStamp}`,
+        `/img/4.jpg?timestamp=${timeStamp}`,
+        `/img/5.jpg?timestamp=${timeStamp}`,
+        `/img/6.jpg?timestamp=${timeStamp}`,
+        `/img/7.jpg?timestamp=${timeStamp}`,
+        `/img/8.jpg?timestamp=${timeStamp}`,
+        `/img/9.jpg?timestamp=${timeStamp}`,
+        `/img/10.jpg?timestamp=${timeStamp}`,
       ])
       .then(() => self.skipWaiting());
     })
